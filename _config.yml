@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Aahil's blog
 subtitle: ''
-description: ''
+description: Aahil's personal blogging space
 keywords:
-author: John Doe
+author: Muhammad Aahil
 language: en
-timezone: ''
+timezone: Asia/Karachi
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://aahil703.github.io/my_blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -101,4 +101,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:aahil703/my_blog.git
+  branch: main
